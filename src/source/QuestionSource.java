@@ -1,4 +1,6 @@
 package source;
+import core.*;
 
-public class QuestionSource {
+public interface QuestionSource {
+    Question getQuestion();
 }
