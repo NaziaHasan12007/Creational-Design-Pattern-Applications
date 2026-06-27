@@ -1,4 +1,8 @@
 package exam;
 
-public class MidtermExamFactory {
+import core.*;
+
+public class MidtermExamFactory extends ExamFactory {
+    @Override
+    public Exam createExam() { return new MidTermExam(); }
 }
